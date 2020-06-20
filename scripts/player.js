@@ -6,7 +6,7 @@ class Player {
     this.soundObject = new buzz.sound(this.currentlyPlaying.soundFileUrl);
   }
 
-  getDuration() {
+  getDuration() { //why did we put this here and not in player-bar js?
     return this.soundObject.getDuration();
   }
 
